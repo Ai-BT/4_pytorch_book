@@ -1,7 +1,5 @@
 # %%
 # 1. 사전 훈련된 모델 가져오기
-from cProfile import label
-from sklearn import preprocessing
 from torchvision import models
 
 print(dir(models))
